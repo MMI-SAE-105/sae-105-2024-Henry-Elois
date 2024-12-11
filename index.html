@@ -1,72 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ca va trail'er </title>
+    <title>Ca va trail'er</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <header class="header"></header>
+    <header class="header">
         <img class="header__logo" src="assets/icones/logo.svg" alt="logo">
-        <img class="header__menu" src="assets/icones/menu.svg" alt="menu">
-          <main class="main-content">
+        <img class="header__menu-icon" src="assets/icones/menu.svg" alt="menu">
+        <nav class="header__nav menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="billetterie.html">Billeterie</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programmation.html">Programmation</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="nos invités.html">Nos invités</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="a propos.html">A propos</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="infos pratiques.html">Infos pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-        <h1 class="main-title">Ca va trail'er</h1>
+    <main class="main-content">
+        <section class="main-content__hero">
+            <h1 class="main-content__title">Ca va trail'er</h1>
+            <img class="main-content__image" src="assets/image/photo accueil.webp" alt="photo accueil">
+            <img class="main-content__background" src="assets/image/fond accueil.webp" alt="fond accueil">
+            <img class="main-content__background-2" src="assets/image/fonc accueil 2.webp" alt="fonc accueil 2">
+            <p class="main-content__description">Plongez dans l'univers de notre festival ! Découvrez les évènements à
+                ne pas manquer et profitez d'une expérience inoubliable !</p>
+        </section>
 
-         <img class="main-image" src="assets/image/photo accueil.webp" alt="photo accueil">
+        <section class="main-content__details">
+            <p class="main-details">Du 15 au 21 avril 2025 à la citadelle de Belfort. Festival accessible à tous,
+                participants et festivaliers !</p>
+        </section>
 
-          <img class="main-background" src="assets/image/fond accueil.webp" alt="fond accueil">
+        <section class="main-content__films">
+            <div class="film">
+                <img class="film__image" src="assets/image/l'envole.webp" alt="arrow">
+                <p class="film__description">L'ENVOL-Blandine L'hirondel<br>PREMIÈRE MONDIALE<br>FRANCE -26 min 30-
+                    Version française<br>Réalisé par Romain Saubion</p>
+            </div>
 
-           <img class="main-background-2" src="assets/image/fonc accueil 2.webp" alt="fonc accueil 2">
+            <div class="film">
+                <img class="film__image" src="assets/image/free to run.webp" alt="affiche free to run">
+                <p class="film__description">FREE TO RUN<br>États-Unis-31 min- Version originale sous-titrée<br>Réalisé
+                    par Carrie et Tim Highman</p>
+            </div>
 
-        <p class="main-description">Plongez dans l'univers de notre festival ! Découvrez les évènements à ne pas manquer et profitez d'une expérience inoubliable !</p>
+            <button class="btn btn--primary">Voir la programmation complète</button><br>
 
-        <p class="main-details">Du 15 au 21 avril 2025 à la citadelle de Belfort. Festival accessible à tous,participants et festivaliers !</p>
+            <div class="film">
+                <img class="film__image" src="assets/image/kilian jornet.webp" alt="affiche kilian jornet">
+                <p class="film__description">Kilian Jornet<br>Nous présentera son film sur sa traversée des
+                    Pyrénées,<br>In the (un)know</p>
+            </div>
 
-    <img src="assets/image/l'envole.webp" alt="arrow">
-    <p>L'ENVOL-Blandine L'hirondel
-    PREMIÈRE MONDIALE
-    FRANCE -26 min 30- Version française
-    Réalisé par Romain Saubion</p>
-    <img src="assets/image/free to run.webp" alt="affiche free to run">
-    <p>FREE TO RUN
-    États-Unis-31 min- Version originale sous-titrée
-    Réalisé par Carrie et Tim Highman</p>
-    <button>Voir la programmation complète </button><br>
-    <img src="assets/image/kilian jornet.webp" alt="affiche kian jarnet">
-    <p>Kilian Jornet
-    Nous présentera son film sur sa traversée des pyrénées,
-    In the (un)know</p>
-    <img src="assets/image/caroline chaverot.webp" alt="caroline chaverot">
-    <br>
-    <button>Voir les sportifs présents</button>
-    <img src="assets/image/festival.webp" alt="^photo de festival">
-    <img src="assets/image/course.webp" alt="photo de course">
-    <img src="assets/image/a propos.webp" alt="photo d'escalade">
-    
-        <h1> Nos partenaires</h1>
-        <img src="assets/image/partenaire.webp" alt="logo partenaire 1">
-        <img src="assets/image/ville de belfort.webp" alt="logo partenaire 2">
-        <img src="assets/image/fbpartenaire.webp" alt="logo partenaire 3">
-</main>
-<footer>
-    <p>Henry Eloïs</p>
-    <img src="assets/icones/logo.svg" alt="facebook">
-    <p>Menu <br> A propos <br> Billeterie <br> Contact</p>
-    <p>Contact <br> 4 Pl. Lucien Tharradin, <br> 25200 Montbéliard <br> 03 81 99 47 34 <br> but-mmi-montbeliard@univ-fcomte.fr </p>
-    <p>Nous suivre </p>
-    <img src="assets/icones/facebook 3.svg" alt="facebook">
-    <img src="assets/icones/insta.svg" alt="instagram">
-    <img src="assets/icones/twitter 3.svg" alt="twitter">
-    <img src="assets/icones/logo tiktok.svg" alt="tiktok">
-    <img src="assets/icones/logo strava.svg" alt="strava">
+            <div class="film">
+                <img class="film__image" src="assets/image/caroline chaverot.webp" alt="caroline chaverot">
+            </div>
 
+            <button class="btn btn--secondary">Voir les sportifs présents</button>
+        </section>
 
-</footer>
+        <section class="main-content__actions">
+            <div class='action'>
+                <img src="assets/image/festival.webp" alt="photo de festival">
+                <button>Billeterie</button>
+            </div>
 
+            <div class='action'>
+                <img src="assets/image/course.webp" alt="photo de course">
+                <button>Nous contacter</button>
+            </div>
 
+            <div class='action'>
+                <img src="assets/image/a propos.webp" alt='photo d\' escalade'>
+                <button>A propos</button>
+            </div>
+        </section>
+        <section class='partners'>
+            <h1>Nos partenaires</h1>
+            <div class='partners__logos'>
+                <img src='assets/image/partenaire.webp' alt='logo partenaire 1'>
+                <img src='assets/image/ville de belfort.webp' alt='logo partenaire 2'>
+                <img src='assets/image/fbpartenaire.webp' alt='logo partenaire 3'>
+            </div>
+        </section>
+    </main>
 
+    <footer class='footer'>    
+        <p>Henry Eloïs</p>
 
+        <div class='footer__socials'>
+            Nous suivre 
+            <img src='assets/icones/facebook 3.svg' alt='facebook'>
+            <img src='assets/icones/insta.svg' alt='instagram'>
+            <img src='assets/icones/twitter 3.svg' alt='twitter'>
+            <img src='assets/icones/logo tiktok.svg' alt='tiktok'>
+            <img src='assets/icones/logo strava.svg' alt='strava'>
+        </div>
 
+        <div class='footer__contact'>
+            Contact <br>
+            4 Pl. Lucien Tharradin, 25200 Montbéliard<br>
+            03 81 99 47 34<br>
+            but-mmi-montbeliard@univ-fcomte.fr
+        </div>
+
+        Menu <br>
+        A propos <br>Billeterie <br> Contact
+    </footer>
 </body>
+
 </html>
