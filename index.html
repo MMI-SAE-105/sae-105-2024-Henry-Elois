@@ -12,12 +12,13 @@
 
 <body>
     <header class="header">
-        <img class="header__logo" src="assets/icones/logo.svg" alt="logo">
+        <a href="index.html" class="header__logo-link">
+            <img class="header__logo" src="assets/icones/logo.svg" alt="logo">
         <img class="header__menu-icon" src="assets/icones/menu.svg" alt="menu">
         <nav class="header__nav menu" id="mainNav" aria-hidden="true">
             <ul class="menu__list list-unstyled">
                 <li class="menu__item">
-                    <a class="menu__link" href="billetterie.html">Billeterie</a>
+                    <a class="menu__link-1" href="billetterie.html">Billeterie</a>
                 </li>
                 <li class="menu__item">
                     <a class="menu__link" href="programmation.html">Programmation</a>
@@ -44,6 +45,7 @@
             <img class="main-content__image" src="assets/image/photo accueil.webp" alt="photo accueil">
             <img class="main-content__background" src="assets/image/fond accueil.webp" alt="fond accueil">
             <img class="main-content__background-2" src="assets/image/fonc accueil 2.webp" alt="fonc accueil 2">
+            <img class="main-content__background-3" src="assets/image/accueil fond 3.webp" alt="fond accueil 3">
             <p class="main-content__description">Plongez dans l'univers de notre festival ! Découvrez les évènements à
                 ne pas manquer et profitez d'une expérience inoubliable !</p>
         </section>
@@ -66,7 +68,8 @@
                     par Carrie et Tim Highman</p>
             </div>
 
-            <button class="btn btn--primary">Voir la programmation complète</button><br>
+            <a href="programmation.html" >
+            <button class="btn btn--primary">Voir la programmation complète</button><br></a>
 
             <div class="film">
                 <img class="film__image" src="assets/image/kilian jornet.webp" alt="affiche kilian jornet">
@@ -78,31 +81,32 @@
                 <img class="film__image" src="assets/image/caroline chaverot.webp" alt="caroline chaverot">
             </div>
 
-            <button class="btn btn--secondary">Voir les sportifs présents</button>
+            <a href="nosinvités.html">
+            <button class="btn btn--secondary">Voir les sportifs présents</button></a>
         </section>
 
         <section class="main-content__actions">
             <div class='action'>
                 <img src="assets/image/festival.webp" alt="photo de festival">
-                <button>Billeterie</button>
+                <a href="billetterie.html"><button>Billeterie</button></a>
             </div>
 
             <div class='action'>
                 <img src="assets/image/course.webp" alt="photo de course">
-                <button>Nous contacter</button>
+                <a href="contact.html"><button>Nous contacter</button></a>
             </div>
 
             <div class='action'>
-                <img src="assets/image/a propos.webp" alt='photo d\' escalade'>
-                <button>A propos</button>
+                <img src="assets/image/a propos.webp" alt="photo d'escalade">
+               <a href="apropos.html"><button>A propos</button></a>
             </div>
         </section>
         <section class='partners'>
             <h1>Nos partenaires</h1>
             <div class='partners__logos'>
-                <img src='assets/image/partenaire.webp' alt='logo partenaire 1'>
-                <img src='assets/image/ville de belfort.webp' alt='logo partenaire 2'>
-                <img src='assets/image/fbpartenaire.webp' alt='logo partenaire 3'>
+                <img class="partners__logo-img" src='assets/image/partenaire.webp' alt='logo partenaire 1'>
+                <img class="partners__logo-img" src='assets/image/ville de belfort.webp' alt='logo partenaire 2'>
+                <img class="partners__logo-img" src='assets/image/fbpartenaire.webp' alt='logo partenaire 3'>
             </div>
         </section>
     </main>

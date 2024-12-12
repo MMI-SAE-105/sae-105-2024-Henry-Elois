@@ -1,17 +1,123 @@
-.main-content {
-    background-color: black;
-    color: #E2CCB3;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.main-content__title {
-    font-size: 60px;
-    font-weight: 700;
-    margin-bottom: 20px;
+/* Style général */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #111;
+    overflow-x: hidden;
 }
 
-.main-content__background img {
+.main-content {
+    position: relative;
+}
+
+.main-content__hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.main-content__title {
+    font-size: 96px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 0,5rem;
+    color: #E2CCB3;
+    z-index: 2;
+    position: relative;
+}
+
+.main-content__image {
     width: 100%;
-    height: 100%;
+    max-height: 60vh;
     object-fit: cover;
+    z-index: 2;
+
+}
+
+.main-content__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 425px;
+    height: 232px;
+    z-index: 0;
+}
+
+.main-content__background-2 {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    padding-top: 220px;
+    width: 149px;
+    height: 195px;
+    z-index: 0;
+}
+.main-content__background-3 {
+    position: absolute;
+    
+    right: 0;
+    padding-top: 210px;
+    width: 281px;
+    height: 219px;
+    z-index: 0;
+}
+.main-description {
+    padding-top: 58px;
+    font-family: josefin sans;
+    color: #E2CCB3;
+    font-size: 20px;
+    font-weight: regular;
+}
+.main-details {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    margin: 1rem auto;
+    max-width: 60%;
+    font-family: josefin sans;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.6;
+    z-index: 2;
+    position: relative;
+}
+
+.film_image {
+    background-color: 295E25(0, 0, 0, 0,4);
+    padding : 1rem;
+    border-radius: 8px;
+    width: 104px;
+    height: 90px;
+    position: relative;
+
+}
+.btn {
+    background-color: #FD410D;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: white;
+    justify-content: center; 
+    display: flex;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.main-content__actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;    
+}
+.partners__logos {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;  
+}
+.partners__logos-img {
+    width: 50px;
+    height: 50px;
 }
