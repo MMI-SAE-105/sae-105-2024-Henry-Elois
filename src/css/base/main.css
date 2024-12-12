@@ -5,7 +5,7 @@ img,video {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-sans);
     color: #fff;
     background-color: #111;
     overflow-x: hidden;
@@ -46,6 +46,7 @@ body {
     width: 425px;
     height: 232px;
     z-index: 0;
+    opacity: 70%;
 }
 
 .main-content__background-2 {
@@ -56,19 +57,19 @@ body {
     width: 149px;
     height: 195px;
     z-index: 0;
+    opacity: 70%;
 }
 .main-content__background-3 {
-    position: absolute;
-    
+    position: absolute; 
     right: 0;
     padding-top: 210px;
     width: 281px;
     height: 219px;
     z-index: 0;
+    opacity: 70%;
 }
 .main-description {
     padding-top: 58px;
-    font-family: josefin sans;
     color: #E2CCB3;
     font-size: 20px;
     font-weight: regular;
@@ -79,7 +80,6 @@ body {
     border-radius: 8px;
     margin: 1rem auto;
     max-width: 60%;
-    font-family: josefin sans;
     font-size: 20px;
     color: #ffffff;
     line-height: 1.6;
@@ -96,20 +96,12 @@ body {
     position: relative;
 
 }
-.btn {
-    background-color: #FD410D;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: white;
-    justify-content: center; 
-    display: flex;
-    align-items: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-}
-.bouton{
-    justify-content: center;
-    display: flex;
+.main-content__description {
+    padding-top: 1rem;
+    color: #E2CCB3;
+    font-size: 20px;
+    font-weight: regular;
+    width: 90%;
     align-items: center;
 }
 .main-content__actions {
@@ -128,4 +120,46 @@ body {
 .partners__logo-img {
     width: 100px;
     height: 100px;
+    margin-bottom: 20px;
+    gap: 3rem;
+}
+.film__image {
+    margin-left: 20px;
+    width: 104px;
+    height: 90px;
+}
+.film__description {
+    padding-top: 1rem;
+    color: #E2CCB3;
+    font-size: 20px;
+    font-weight: regular;
+    width: 90%;
+}
+.film__image-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 104px;
+    height: 90px;
+    float: right;
+}
+.film__description-2 {
+    padding-top: 1rem;
+    color: #E2CCB3;
+    font-size: 20px;
+    font-weight: regular;
+    width: 90%;
+    text-align: end;
+}
+.film {
+    display: flex;
+    align-items: center;
+}
+.film_droite {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+.main-content__film {
+    margin-bottom: ;
 }

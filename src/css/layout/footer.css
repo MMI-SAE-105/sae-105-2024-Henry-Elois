@@ -1,7 +1,6 @@
 .footer {
     background-color: #F5E6D3;
     padding: 2rem;
-    font-family: josefin sans;
 }
 
 .footer-content {
@@ -18,6 +17,7 @@
     max-width: 100px;
     height: auto;
     float: right;
+    
 }
 
 h3 {
