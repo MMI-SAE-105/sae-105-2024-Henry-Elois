@@ -5,7 +5,7 @@ img,video {
 body {
     padding: 0;
     font-family: var(--font-sans);
-    color: #ffffff;
+    color: #E2CCB3;
     background-color: #111;
     overflow-x: hidden;
 }
@@ -163,9 +163,6 @@ body {
 }
 .main-content__film {
     margin-bottom: ;
-}
-p {
-    margin: 10px 20px;
 }
 
 .program {
