@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous - Ça va Trai'ler</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="Header">
+        <a href="index.html" class="header__logo-link">
+            <img class="header__logo" src="assets/icones/logo.svg" alt="logo">
+            <img class="header__menu-icon" src="assets/icones/menu.svg" alt="menu">
+            <nav class="header__nav menu" id="mainNav" aria-hidden="true">
+                <ul class="menu__list list-unstyled">
+                    <li class="menu__item">
+                        <a class="menu__link" href="billetterie.html">Billeterie</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="programmation.html">Programmation</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="nosinvités.html">Nos invités</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="apropos.html">A propos</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="infospratiques.html">Infos pratiques</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+
+    <main>
+        <section class="contact">
+            <h1 class="contact__title">Nous contacter</h1>
+            <p class="contact__description">Si vous voulez participer au festival en tant que concurrent, veuillez
+                remplir le formulaire ci-dessous.</p>
+            <form class="contact__form">
+                <div class="form-group">
+                    <input type="text" name="nom" placeholder="Nom" required>
+                    <input type="text" name="prenom" placeholder="Prénom" required>
+                </div>
+                <input type="email" name="email" placeholder="Adresse email" required>
+                <input type="tel" name="telephone" placeholder="Numéro de téléphone" required>
+                <input type="url" name="film" placeholder="Lien du film" required>
+                <textarea name="message" placeholder="Parlez-nous de vous..." rows="4" required></textarea>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+
+            <p class="contact__subtitle">Dans le cas contraire, rien ne vous empêche de</p>
+            <h2 class="contact__message-title">Laisser un message</h2>
+            <p>Laissez-nous un avis, une remarque, des recommandations</p>
+            <form class="contact__feedback-form">
+                <div class="form-group">
+                    <input type="text" name="nom" placeholder="Nom" required>
+                    <input type="text" name="prenom" placeholder="Prénom" required>
+                </div>
+                <input type="email" name="email" placeholder="Adresse email" required>
+                <textarea name="commentaire" placeholder="Laissez votre commentaire..." rows="4" required></textarea>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </section>
+
+        <section class="social">
+            <h2 class="social__title">Nous retrouver</h2>
+            <p>Suivez-nous sur nos réseaux sociaux pour découvrir les coulisses, les films et toute l'actualité de cet
+                incroyable événement !</p>
+            <div class="social__icons">
+                <a href="#"><img src="assets/icones/insta.svg" alt="Instagram"></a>
+                <a href="#"><img src="assets/icones/logo tiktok.svg" alt="TikTok"></a>
+                <a href="#"><img src="assets/icones/twitter 3.svg" alt="Twitter"></a>
+                <a href="#"><img src="assets/icones/facebook 3.svg" alt="Facebook"></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="logo">
+                <h3>Henry Elois</h3>
+                <img src="/assets/icones/logo.svg" alt="Ca va trail'er logo" class="trail-logo">
+            </div>
+
+            <div class="menu_footer">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="apropos.html">A propos</a></li>
+                    <li><a href="billetterie.html">Billetterie</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h3>Contact</h3>
+                <p>4 Pl. Lucien Tharradin,</p>
+                <p>25200 Montbéliard</p>
+                <p>03 81 99 47 34</p>
+                <p>but-mmi-montbeliard@univ-fcomte.fr</p>
+            </div>
+
+            <div class="social">
+                <h3>Nous suivre</h3>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i><img src="assets/icones/facebook 3.svg"></a>
+                    <a href=""><i class="fab fa-instagram"></i><img src="assets/icones/insta.svg"></a>
+
+                    <a href=""><i class="fab fa-twitter"></i><img src="assets/icones/twitter 3.svg"></a>
+                    <a href=""><i class="fab fa-tiktok"></i><img src="assets/icones/logo tiktok.svg"></a>
+                    <a href=""><i class="fab fa-strava"></i><img src="assets/icones/logo strava.svg"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
