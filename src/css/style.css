@@ -20,6 +20,7 @@
 @import "components/section.css";
 @import "components/bouton.css";
 @import "components/card.css";
+@import "components/film.css";
 
 /*utils*/
 @import "utils/variables.css";

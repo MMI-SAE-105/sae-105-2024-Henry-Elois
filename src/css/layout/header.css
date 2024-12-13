@@ -13,11 +13,9 @@
     margin-top: 1px;
 }
 
-.header__menu-icon {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    order: 2;
+.header__menu-btn {
+    position: relative;
+    z-index: 20;
 }
 .header__logo-link {
     display: flex;

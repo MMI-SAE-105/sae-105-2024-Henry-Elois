@@ -1,0 +1,46 @@
+.film__image {
+    margin-left: 20px;
+    width: 104px;
+    height: 90px;
+}
+
+.film__description {
+    padding-top: 1rem;
+    color: #E2CCB3;
+    font-size: 20px;
+    font-weight: regular;
+    width: 90%;
+}
+
+.film__image-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 104px;
+    height: 90px;
+    float: right;
+}
+
+.film__description-2 {
+    color: #E2CCB3;
+    font-size: 20px;
+    font-weight: regular;
+    width: 90%;
+    text-align: end;
+}
+
+.film {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.film_droite {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.main-content__film {
+    margin-bottom: ;
+}
