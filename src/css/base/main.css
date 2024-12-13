@@ -35,6 +35,7 @@ body {
     max-height: 60vh;
     object-fit: cover;
     z-index: 2;
+    position: relative;
 
 }
 
@@ -52,8 +53,8 @@ body {
     position: absolute;
     top: 40%;
     left: 0;
-    padding-top: 220px;
-    width: 149px;
+    padding-top: 200px;
+    width: 135px;
     height: 195px;
     z-index: 0;
     opacity: 70%;
@@ -61,7 +62,7 @@ body {
 .main-content__background-3 {
     position: absolute; 
     right: 0;
-    padding-top: 210px;
+    padding-top: 200px;
     width: 281px;
     height: 219px;
     z-index: 0;
@@ -101,7 +102,7 @@ body {
     font-size: 20px;
     font-weight: regular;
     width: 90%;
-    align-items: center;
+    
 }
 .main-content__actions {
     display: flex;
@@ -237,4 +238,39 @@ body {
     font-style: normal;
     margin-left: 20px;
     margin-right: 20px;
+}
+.title_invite {
+    color: #FD410D;
+    text-align: center;
+}
+.description_invite {
+    text-align: ;
+}
+.contact__form,
+.contact__feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #E2CCB3;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #E2CCB3;
+    font-size: 1rem;
 }

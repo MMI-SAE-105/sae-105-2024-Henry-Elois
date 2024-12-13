@@ -19,6 +19,7 @@
 /* Components */
 @import "components/section.css";
 @import "components/bouton.css";
+@import "components/card.css";
 
 /*utils*/
 @import "utils/variables.css";
