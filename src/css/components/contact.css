@@ -6,11 +6,14 @@
     text-align: center;
     margin: 20px auto;
 }
-.contact__subtitle {
+.contact__texte{
     color: #E2CCB3;
     font-size: 30px;
     font-weight: bold;
     width: 90%;
     text-align: center;
     margin: 20px auto;
+}
+.contact__message-title {
+    margin-left: 40px;
 }
