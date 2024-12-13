@@ -11,6 +11,8 @@
 .header__logo {
     max-width: 120px;
     margin-top: 1px;
+    position: relative;
+    z-index: 20;
 }
 
 .header__menu-btn {
