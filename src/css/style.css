@@ -27,6 +27,7 @@
 @import "components/lightbox.css";
 @import "components/carousel.css";
 @import "components/icons.css";
+@import "components/infos.css";
 
 /*utils*/
 @import "utils/variables.css";
