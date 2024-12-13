@@ -23,6 +23,7 @@
 @import "components/film.css";
 @import "components/contact.css";
 @import "components/apropos.css";
+@import "components/programmation.css";
 
 /*utils*/
 @import "utils/variables.css";
