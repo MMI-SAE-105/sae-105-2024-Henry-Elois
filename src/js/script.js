@@ -15,7 +15,8 @@ if (toggle && nav) {
 
 /* Carrousel*/
 const track = document.querySelector('.carousel__track');
-const slides = Array.from(track.children);
+if (track) {
+  const slides = Array.from(track.children);
 const nextButton = document.querySelector('.carousel__button--right');
 const prevButton = document.querySelector('.carousel__button--left');
 const dotsNav = document.querySelector('.carousel__nav');
@@ -89,3 +90,25 @@ dotsNav.addEventListener('click', e => {
   updateDots(currentDot, targetDot);
   showHideArrows(slides, prevButton, nextButton, targetIndex);
 });
+}
+
+const lightBox = document.querySelector("#lightbox");
+const lightBoxImg= lightBox.querySelector("img");
+
+document.body.addEventListener("click", (evt)=> {
+    console.log(evt.target);
+    
+    if (evt.target.matches("[data-full-image]")) {
+        lightBoxImg.src = evt.target.dataset.fullImage;
+        lightBox.showModal();}
+    });
+
+    
+ lightBox.addEventListener("click", (evt) => {
+       lightBox.classList.add("sortie");
+   
+    lightBox.addEventListener("animationend", () => {
+        lightBox.classList.remove("sortie");
+        lightBox.close();
+    }, {once: true});
+}); 

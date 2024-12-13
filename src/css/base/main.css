@@ -157,8 +157,8 @@ button {
 }
 
 .main-image {
-    width: 243px;
-    height: 334px;
+    width: 25%;
+    height: 25%;
     margin: 0 auto;
     display: block;
 }

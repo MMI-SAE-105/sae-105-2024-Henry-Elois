@@ -24,6 +24,7 @@
 @import "components/contact.css";
 @import "components/apropos.css";
 @import "components/programmation.css";
+@import "components/lightbox.css";
 
 /*utils*/
 @import "utils/variables.css";

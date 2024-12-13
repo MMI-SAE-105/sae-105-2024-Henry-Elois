@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
-/* Title and Description */
+
 .titre {
     font-size: 3rem;
     text-align: center;
@@ -21,7 +21,7 @@ body {
     line-height: 1.6;
 }
 
-/* Program Articles */
+
 .program {
     display: flex;
     flex-direction: column;
@@ -59,7 +59,6 @@ img {
     margin: 10px auto;
     max-width: 90%;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
