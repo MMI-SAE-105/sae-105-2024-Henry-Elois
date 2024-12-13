@@ -122,7 +122,8 @@ body {
 .partners__logo-img {
     width: 100px;
     height: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
 }
 
 .film__image {
@@ -291,4 +292,9 @@ textarea {
     background-color: #ffffff;
     color: #E2CCB3;
     font-size: 1rem;
+}
+.stickers {
+    height: 82,5px;
+    width: 75px;
+    float: right;
 }
