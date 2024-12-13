@@ -4,3 +4,25 @@
     margin-left: 20px;
     color: #FD410D;
 }
+ .apropos_anthen {
+    font-size: 20px;
+    font-style: ultra-light;
+    margin-left: 20px;
+    color: #FD410D;
+}
+.apropos_access {
+    font-size: 20px;
+    font-style: ultra-light;
+    margin-left: 20px;
+    color: #E2CCB3;
+    float: right;
+}
+.apropos_natu{
+    font-size: 30px;
+    font-style: ultra-light;
+    margin-left: 20px;
+    color: #07360f;
+}
+.apropos_qualite{
+    display: ruby;
+}
